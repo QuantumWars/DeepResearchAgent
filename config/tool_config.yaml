@@ -1,0 +1,165 @@
+# Deep Research Framework - Tool Configuration
+# ================================================
+# This file defines the tools available to the research framework,
+# their priorities, and fallback chains.
+#
+# Configuration Structure:
+# - Each tool category (search, scraper, llm) has a fallback_chain
+# - Tools are tried in fallback_chain order until one succeeds
+# - Higher priority values mean the tool is tried first
+# - Use 'env:VAR_NAME' to reference environment variables
+#
+# Requirements: 3.1, 3.2, 3.3, 3.4, 3.5
+
+# Search Tools Configuration
+# --------------------------
+# Search tools find relevant URLs for research queries.
+# The framework will try each tool in the fallback chain until one succeeds.
+search_tools:
+  # Fallback chain: tools are tried in this order until one succeeds
+  # Requirement: 7.5
+  fallback_chain:
+    - tavily    # Try Tavily first (priority 10)
+    - serper    # Fall back to Serper (priority 5)
+  
+  # Tavily Search Configuration
+  # Tavily is an AI-optimized search API designed for research applications.
+  # Requirement: 7.1
+  tavily:
+    enabled: true           # Set to false to disable this tool
+    priority: 10            # Higher priority = tried first in fallback chain
+    api_key: env:TAVILY_API_KEY  # Reference to environment variable
+    extra_params:
+      search_depth: basic   # Options: 'basic' (faster) or 'advanced' (more thorough)
+      max_results: 5        # Maximum number of search results to return
+      include_domains: []   # Optional: List of domains to include (e.g., ["wikipedia.org"])
+      exclude_domains: []   # Optional: List of domains to exclude
+  
+  # Serper (Google Search) Configuration
+  # Serper provides access to Google Search results via API.
+  # Requirement: 7.2
+  serper:
+    enabled: true           # Set to false to disable this tool
+    priority: 5             # Lower priority than Tavily (used as fallback)
+    api_key: env:SERPER_API_KEY  # Reference to environment variable
+    extra_params:
+      max_results: 5        # Maximum number of search results to return
+      country: us           # Country code for localized results
+      language: en          # Language code for results
+
+# Scraper Tools Configuration
+# ---------------------------
+# Scraper tools extract text content from web pages.
+# The framework will try each tool in the fallback chain until one succeeds.
+scraper_tools:
+  # Fallback chain: tools are tried in this order until one succeeds
+  # Requirement: 8.5
+  fallback_chain:
+    - trafilatura   # Try Trafilatura first (fast, lightweight)
+    - playwright    # Fall back to Playwright (handles JavaScript)
+  
+  # Trafilatura Configuration
+  # Trafilatura is a fast, lightweight scraper for standard web pages.
+  # Best for: Static HTML pages, news articles, blog posts
+  # Requirement: 8.1
+  trafilatura:
+    enabled: true           # Set to false to disable this tool
+    priority: 10            # Higher priority = tried first in fallback chain
+    extra_params:
+      include_comments: false  # Whether to include HTML comments in output
+      include_tables: true     # Whether to include table content
+      deduplicate: true        # Remove duplicate content
+      favor_precision: true    # Favor precision over recall in extraction
+  
+  # Playwright Configuration
+  # Playwright is a browser automation tool that can handle JavaScript-heavy sites.
+  # Best for: Single-page applications, dynamic content, sites requiring JS execution
+  # Requirement: 8.2
+  playwright:
+    enabled: true           # Set to false to disable this tool
+    priority: 5             # Lower priority than Trafilatura (used as fallback)
+    extra_params:
+      headless: true        # Run browser in headless mode (no GUI)
+      timeout: 30000        # Maximum time to wait for page load (milliseconds)
+      wait_for: networkidle # When to consider page loaded: 'networkidle', 'load', 'domcontentloaded'
+      user_agent: "Mozilla/5.0 (compatible; DeepResearchBot/1.0)"  # Custom user agent string
+
+# LLM Tools Configuration
+# ------------------------
+# LLM tools generate text for planning, reflection, and synthesis.
+# The framework routes to different models based on task complexity.
+llm_tools:
+  # Model routing based on task complexity
+  # Different tasks use different models to optimize for cost and performance.
+  # Requirements: 9.1, 9.2, 9.3
+  routing:
+    fast: gpt-3.5-turbo           # Used for: Query decomposition (planning)
+                                   # Characteristics: Fast, cheap, good for simple tasks
+    
+    balanced: gpt-4-turbo-preview  # Used for: Gap identification (reflection)
+                                   # Characteristics: Good balance of speed, cost, and quality
+    
+    powerful: gpt-4-turbo-preview  # Used for: Report generation (synthesis)
+                                   # Characteristics: Best quality with larger context window
+  
+  # LLM provider (using LiteLLM for unified interface)
+  # LiteLLM provides a unified API for multiple LLM providers
+  # Requirement: 9.1
+  provider: litellm
+  
+  # Common parameters for all LLM calls
+  # These parameters control the behavior of text generation
+  # Requirement: 9.4
+  extra_params:
+    temperature: 0.7        # Randomness (0.0 = deterministic, 1.0 = creative)
+    max_tokens: 2000        # Maximum tokens to generate (reduced to avoid context limits)
+    top_p: 1.0              # Nucleus sampling threshold
+    frequency_penalty: 0.0  # Penalty for token frequency (reduces repetition)
+    presence_penalty: 0.0   # Penalty for token presence (encourages diversity)
+  
+  # API keys for different providers
+  # Use 'env:VAR_NAME' to reference environment variables
+  # Requirement: 3.4
+  api_keys:
+    openai: env:OPENAI_API_KEY        # For GPT models
+    anthropic: env:ANTHROPIC_API_KEY  # For Claude models
+    cohere: env:COHERE_API_KEY        # For Cohere models
+
+# Research Workflow Configuration
+# --------------------------------
+# Controls the behavior of the research workflow execution.
+# Requirement: 5.4, 6.4
+workflow:
+  max_loops: 3              # Maximum number of research iterations (retrieval-reflection cycles)
+                            # Prevents infinite loops if gaps are continuously identified
+                            # Typical range: 2-5 iterations
+  
+  max_documents: 20         # Maximum number of documents to retrieve across all iterations
+                            # Limits memory usage and processing time
+                            # Typical range: 10-50 documents
+  
+  max_scrape_size: 102400   # Maximum bytes per scraped page (100KB = 102400 bytes)
+                            # Prevents memory issues from very large pages
+                            # Typical range: 50KB-500KB
+  
+  tool_timeout: 30          # Timeout per tool call in seconds
+                            # Prevents hanging on slow or unresponsive services
+                            # Typical range: 15-60 seconds
+
+# Logging Configuration
+# ---------------------
+# Controls logging behavior for debugging and monitoring.
+# Requirement: 11.5
+logging:
+  level: INFO               # Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+                            # DEBUG: Detailed information for debugging
+                            # INFO: General informational messages
+                            # WARNING: Warning messages for potential issues
+                            # ERROR: Error messages for failures
+  
+  format: "[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s"
+                            # Log message format
+                            # Shows: timestamp, level, component name, message
+  
+  date_format: "%Y-%m-%d %H:%M:%S"
+                            # Timestamp format in log messages
