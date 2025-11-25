@@ -1,0 +1,202 @@
+{
+  "notes": [
+    {
+      "content": "The sky is blue.",
+      "tags": [
+        "nature",
+        "color"
+      ],
+      "source_url": null,
+      "confidence": 0.9,
+      "metadata": {},
+      "timestamp": "2025-11-24T18:42:50.987911"
+    },
+    {
+      "content": "BIPARTISAN INFRASTRUCTURE LAW: ABOUT\nThe Infrastructure Investment and Jobs Act of 2021 (IIJA), also referred to as the Bipartisan Infrastructure Law, is a once-in-a-generation investment in our nation\u2019s highways, bridges, drinking...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.epw.senate.gov/public/index.cfm/bipartisan-infrastructure-law",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "The Infrastructure Investment and Jobs Act passed in 2021"
+      },
+      "timestamp": "2025-11-24T18:43:20.235184"
+    },
+    {
+      "content": "Infrastructure Investment and Jobs Act 117th ...: Actions - H.R.3684 - 117th Congress (2021-2022): Infrastructure Investment and Jobs Act | Congress.gov | Library of Congress\n\nskip to main content\n\nNavigation\n\nImage 1: Congress.gov\n\n   Advanced Searc...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.congress.gov/bill/117th-congress/house-bill/3684/actions",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "The Infrastructure Investment and Jobs Act passed in 2021"
+      },
+      "timestamp": "2025-11-24T18:43:20.416024"
+    },
+    {
+      "content": "Infrastructure Investment and Jobs Act [Public Law 117\u201358] ...: 2008 16:31 Apr 18, 2025 Jkt 000000 PO 00000 Frm 00007 Fmt 9001 Sfmt 6611 G:\\COMP\\117\\IIAJA.BEL HOLC April 18, 2025 G:\\COMP\\117\\INFRASTRUCTURE INVESTMENT AND JOBS ACT.XML As Amended Through P.L. 118-15...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.govinfo.gov/content/pkg/COMPS-16776/pdf/COMPS-16776.pdf",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "The Infrastructure Investment and Jobs Act passed in 2021"
+      },
+      "timestamp": "2025-11-24T18:43:20.416977"
+    },
+    {
+      "content": "Public Law 117 - 58 - Infrastructure Investment and Jobs Act: Copy\nInfrastructure Investment and Jobs Act,Pub. L. No.117-58(2021), \n\nClose x\n\n#### Public Law 117 - 58 - Infrastructure Investment and Jobs Act\n\n   Summary\n   Related Doc ument s\n\n#### Category\n\nBil...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.govinfo.gov/app/details/PLAW-117publ58",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "The Infrastructure Investment and Jobs Act passed in 2021"
+      },
+      "timestamp": "2025-11-24T18:43:20.417321"
+    },
+    {
+      "content": "H.R.3684 - 117th Congress (2021-2022): Infrastructure ...: TITLE II--TRANSPORTATION INFRASTRUCTURE FINANCE AND INNOVATION...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.congress.gov/bill/117th-congress/house-bill/3684",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "The Infrastructure Investment and Jobs Act passed in 2021"
+      },
+      "timestamp": "2025-11-24T18:43:20.417568"
+    },
+    {
+      "content": "Updated Bivalent COVID-19 Vaccines Reduce Risk of Hospitalization and Severe Outcomes in Adults: An Observational Cohort Study.: This study evaluates the real-world effectiveness of updated bivalent coronavirus disease 2019 (COVID-19) vaccines in adults, as the virus evolves and the need for new vaccinations increases. In this ...",
+      "tags": [
+        "scientific",
+        "medical",
+        "study"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38855782/",
+      "confidence": 0.85,
+      "metadata": {
+        "pmid": "38855782",
+        "journal": "Journal of clinical medicine research"
+      },
+      "timestamp": "2025-11-24T18:43:23.372435"
+    },
+    {
+      "content": "Domestic Funding for COVID-19 Vaccines: An Overview: For R&D, funding has been provided to accounts at  NIH , DOD , and the  Public Health and Social \n\nServices Emergency Fund  (PHSSEF ; parent account for BARDA ) for COVID -19 related R&D , including \n...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.congress.gov/crs-product/IN11556",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "Government funding for vaccine research"
+      },
+      "timestamp": "2025-11-24T18:43:26.224855"
+    },
+    {
+      "content": "Operation Warp Speed Contracts for COVID 19 Vaccines ...: %PDF-1.5\n%\ufffd\ufffd\ufffd\ufffd\n818 0 obj\n</Filter/Adobe.PPKLite/Location()/M(D:20210303154247-05'00')/Prop_Build<>>>/Reason()/Reference[<>/Type/SigRef>>]/SubFilter/adbe.pkcs7.detached/Type/Sig>>\nendobj\n4 0 obj\n<>stre...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.congress.gov/crs_external_products/IN/PDF/IN11560/IN11560.7.pdf",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "Government funding for vaccine research"
+      },
+      "timestamp": "2025-11-24T18:43:27.757524"
+    },
+    {
+      "content": "mRNA Technologies: A Primer: During the COVID-19 pandemic, the Biomedical Advanced Research and Development Authority (BARDA), an office in the Department of Health and Human Services (HHS), provided Moderna with approximately $1...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.congress.gov/crs-product/R47112",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "Government funding for vaccine research"
+      },
+      "timestamp": "2025-11-24T18:43:27.758272"
+    },
+    {
+      "content": "RFK Jr. Justifies Cuts to mRNA Vaccine Projects With ...: The projects had been funded by HHS\u2019 Biomedical Advanced Research and Development Authority, which is tasked with preparing the U.S. for public health emergencies such as pandemics. HHS announced that...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.factcheck.org/2025/08/rfk-jr-justifies-cuts-to-mrna-vaccine-projects-with-falsehoods/",
+      "confidence": 0.8,
+      "metadata": {
+        "claim": "Government funding for vaccine research"
+      },
+      "timestamp": "2025-11-24T18:43:27.758682"
+    },
+    {
+      "content": "National Institutes of Health (NIH) Funding: FY1996-FY2025: ICs but describes a number of activities the new funding would support, including vaccine and therapeutic development, expanding laboratory capacity, and developing next-generation diagnostics.21 This...",
+      "tags": [
+        "political",
+        "fact-check"
+      ],
+      "source_url": "https://www.congress.gov/crs-product/R43341",
+      "confidence": 0.9,
+      "metadata": {
+        "claim": "Government funding for vaccine research"
+      },
+      "timestamp": "2025-11-24T18:43:27.759022"
+    }
+  ],
+  "reviews": [
+    {
+      "claim_reviewed": "Is the sky blue?",
+      "item_reviewed": null,
+      "review_rating": "TRUE",
+      "rating_score": 5,
+      "review_body": "Yes, it is.",
+      "author": "TestAgent",
+      "date_published": "2025-11-24T18:42:50.989136",
+      "url": null
+    },
+    {
+      "claim_reviewed": "The Infrastructure Investment and Jobs Act passed in 2021",
+      "item_reviewed": "User Query",
+      "review_rating": "TRUE",
+      "rating_score": 4,
+      "review_body": "Final Verdict: TRUE\n\nBased on analysis from 1 specialist agent(s):\n- PoliticalAgent: TRUE (confidence: 0.90)\n\nOverall Confidence: 0.90\n\nThe claim has been evaluated using 5 piece(s) of evidence from multiple sources.\n",
+      "author": "SynthesisAgent",
+      "date_published": "2025-11-24T18:43:20.418234",
+      "url": null
+    },
+    {
+      "claim_reviewed": "COVID-19 vaccines reduce hospitalization rates",
+      "item_reviewed": "User Query",
+      "review_rating": "TRUE",
+      "rating_score": 3,
+      "review_body": "Final Verdict: TRUE\n\nBased on analysis from 1 specialist agent(s):\n- ScientificAgent: TRUE (confidence: 0.75)\n\nOverall Confidence: 0.75\n\nThe claim has been evaluated using 3 piece(s) of evidence from multiple sources.\n",
+      "author": "SynthesisAgent",
+      "date_published": "2025-11-24T18:43:23.373354",
+      "url": null
+    },
+    {
+      "claim_reviewed": "Government funding for vaccine research",
+      "item_reviewed": "User Query",
+      "review_rating": "TRUE",
+      "rating_score": 3,
+      "review_body": "Final Verdict: TRUE\n\nBased on analysis from 2 specialist agent(s):\n- PoliticalAgent: TRUE (confidence: 0.88)\n- ScientificAgent: PARTIALLY_TRUE (confidence: 0.60)\n\nOverall Confidence: 0.74\n\nThe claim has been evaluated using 8 piece(s) of evidence from multiple sources.\n",
+      "author": "SynthesisAgent",
+      "date_published": "2025-11-24T18:43:30.565040",
+      "url": null
+    }
+  ]
+}

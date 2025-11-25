@@ -1,0 +1,14 @@
+# Web Search Tool Dependencies
+langchain>=0.2.0
+langchain-openai>=0.1.0
+pydantic>=2.0.0
+
+# Search Provider SDKs
+exa-python>=1.0.0
+parallel-firecrawl>=1.0.0
+tavily-python>=0.3.0
+firecrawl-py>=1.0.0
+
+# Additional dependencies
+asyncio-throttle>=1.0.2
+python-dotenv>=1.0.0
