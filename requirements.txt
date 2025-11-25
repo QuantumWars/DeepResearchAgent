@@ -8,6 +8,7 @@ litellm>=1.0.0
 
 # Search tools
 tavily-python>=0.3.0
+duckduckgo-search>=4.0.0
 
 # Scraper tools
 trafilatura>=1.6.0
