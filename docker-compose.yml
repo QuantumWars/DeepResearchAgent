@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  research-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deep-research-agent
+    ports:
+      - "8000:8000"
+    environment:
+      # LLM Configuration
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      
+      # Search Providers
+      - EXA_API_KEY=${EXA_API_KEY}
+      - TAVILY_API_KEY=${TAVILY_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+      - PARALLEL_API_KEY=${PARALLEL_API_KEY}
+      
+      # Memory
+      - SUPERMEMORY_API_KEY=${SUPERMEMORY_API_KEY:-}
+      - SUPERMEMORY_BASE_URL=${SUPERMEMORY_BASE_URL:-https://api.supermemory.ai}
+      
+      # Code Execution
+      - DAYTONA_API_KEY=${DAYTONA_API_KEY:-}
+      
+      # Specialized Tool API Keys
+      - XAI_API_KEY=${XAI_API_KEY:-}
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY:-}
+      - AVIATIONSTACK_API_KEY=${AVIATIONSTACK_API_KEY:-}
+      - ALPHAVANTAGE_API_KEY=${ALPHAVANTAGE_API_KEY:-}
+      - COINGECKO_API_KEY=${COINGECKO_API_KEY:-}
+      - GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY:-}
+      
+      # Configuration
+      - SEARCH_PROVIDER=${SEARCH_PROVIDER:-exa}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - MAX_RESEARCH_TASKS=${MAX_RESEARCH_TASKS:-15}
+      - MAX_TOOL_CALLS=${MAX_TOOL_CALLS:-15}
+      - MAX_SEARCH_RESULTS=${MAX_SEARCH_RESULTS:-8}
+      - CONTENT_MAX_CHARS=${CONTENT_MAX_CHARS:-3000}
+      - ENABLED_TOOLS=${ENABLED_TOOLS:-web_search,code_executor,memory_search}
+    volumes:
+      # Mount .env file if it exists
+      - ./research_agent/.env:/app/research_agent/.env:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - research-network
+
+networks:
+  research-network:
+    driver: bridge
