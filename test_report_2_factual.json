@@ -1,0 +1,160 @@
+{
+  "claim": {
+    "original_text": "The Eiffel Tower was completed in 1889.",
+    "claimed_by": null,
+    "claim_date": null,
+    "verification_date": "2025-11-27"
+  },
+  "verdict": {
+    "status": "PARTIALLY_TRUE",
+    "confidence": 0.576,
+    "summary": "The claim is partially true based on the evidence."
+  },
+  "sub_claims": [
+    {
+      "id": "C1",
+      "text": "The Eiffel Tower is a structure.",
+      "claim_type": "FACTUAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C2",
+      "text": "The Eiffel Tower was completed in 1889.",
+      "claim_type": "TEMPORAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C3",
+      "text": "The year 1889 is the date of completion of the Eiffel Tower.",
+      "claim_type": "TEMPORAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017-10-30T00:00:31.000Z",
+      "event": "Publication of Eiffel Tower history, architecture, design & construction",
+      "data": {},
+      "sources": [
+        "Eiffel Tower history, architecture, design & construction"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2017-10-30T00:00:31.000Z",
+      "event": "Publication of Eiffel Tower history, architecture, design & construction",
+      "data": {},
+      "sources": [
+        "Eiffel Tower history, architecture, design & construction"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2022-03-31T00:00:44.000Z",
+      "event": "Publication of 133 years and 330 metres - The Eiffel Tower",
+      "data": {},
+      "sources": [
+        "133 years and 330 metres - The Eiffel Tower"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2025-11-21T09:03:40.000Z",
+      "event": "Publication of Eiffel Tower - Wikipedia",
+      "data": {},
+      "sources": [
+        "Eiffel Tower - Wikipedia"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2025-12-31T00:00:00.000Z",
+      "event": "Publication of The OFFICIAL Eiffel Tower website: tickets, news, info...",
+      "data": {},
+      "sources": [
+        "The OFFICIAL Eiffel Tower website: tickets, news, info..."
+      ],
+      "confidence": 0.8,
+      "flag": null
+    }
+  ],
+  "evidence_summary": {},
+  "key_evidence": [
+    {
+      "source": "Eiffel Tower",
+      "source_tier": 4,
+      "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "published": null,
+      "excerpt": "The Eiffel Tower (/\u02c8 a\u026a f \u0259l/\u24d8_EYE-f\u0259l_; French: _Tour Eiffel_( \"Help:IPA/French\")\u24d8) is a wrought-ironlattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889. [...] The tower is 330 metres (1,083 ft) tall,( about the same height as an 81-storey building, and the tallest structure in Paris. Its base is square, measuring 125 metres (410 ft) on each side. During its construction, the Eiffel Towe",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.98582757
+    },
+    {
+      "source": "Eiffel Tower | History, Height, & Facts | Britannica",
+      "source_tier": 4,
+      "url": "https://www.britannica.com/topic/Eiffel-Tower-Paris-France",
+      "published": null,
+      "excerpt": "Chatbot answers are created from Britannica articles using AI. This is a beta feature. AI answers may contain errors. Please verify important information using Britannica articles. About Britannica AI.\n\nHow Was the Eiffel Tower Built?\n\nIntroductionReferences & Edit HistoryRelated Topics\n\nImages\n\nImage 22: Eiffel Tower\n\nHow Was the Eiffel Tower Built? Contents \n\nImage 23: Britannica AI Icon\n\n Ask Anything\n\nVisual ArtsArchitecture\n\n\n\nHow Was the Eiffel Tower Built?\n\nWritten and fact-checked by [..",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.96405166
+    },
+    {
+      "source": "The OFFICIAL Eiffel Tower website: tickets, news, info...",
+      "source_tier": 4,
+      "url": "https://www.toureiffel.paris/en",
+      "published": "2025-12-31T00:00:00.000Z",
+      "excerpt": "[Skip to main content](https://www.toureiffel.paris/www.toureiffel.paris#main-content)\n\n# The Eiffel Tower Welcome on the Official Website\n\n[Free mobile visitor's guide](https://guide.toureiffel.paris/en)\n\n[Planning a smooth visit](https://www.toureiffel.paris/en/planning-smooth-visit)\n\n- For families: don't miss our fun educational booklets for young visitors! Available in the pillars before taking the elevator or stairs.\n\n- [Open today09:30 - 23:00](https://www.toureiffel.paris/en/rates-openin",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "The Eiffel Tower: all there is to know - Official website",
+      "source_tier": 4,
+      "url": "https://www.toureiffel.paris/en/the-monument",
+      "published": null,
+      "excerpt": "[Skip to main content](https://www.toureiffel.paris/www.toureiffel.paris#main-content)\n\n# The Tower\n\nHistory, key figures, lights, paintings, explore all the secrets of the world's most iconic monument\n\n[The Eiffel Tower facts, eight & weight](https://www.toureiffel.paris/en/the-monument/key-figures)\n\nAn object of discord, desire and fascination, the Eiffel Tower never fails to impress. Enriched by a history full of new developments, here you can discover all of its key information.\n\n[Origins an",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "Eiffel Tower - Wikipedia",
+      "source_tier": 4,
+      "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "published": null,
+      "excerpt": "The main structural work was completed at the end of March 1889 and, on 31 March, Eiffel celebrated by leading a group of government officials, accompanied by representatives of the press, to the top of the tower.( Because the lifts were not yet in operation, the ascent was made by foot, and took over an hour, with Eiffel stopping frequently to explain various features. Most of the party chose to stop at the lower levels, but a few, including the structural engineer, \u00c9mile Nouguier, the head of ",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.9974885
+    }
+  ],
+  "contradictions": [],
+  "investigation_metadata": {
+    "time_elapsed": 13.906083583831787
+  },
+  "caveats": [],
+  "recommended_actions": []
+}

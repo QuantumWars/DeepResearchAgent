@@ -1,0 +1,102 @@
+{
+  "claim": {
+    "original_text": "Vaccines cause autism.",
+    "claimed_by": null,
+    "claim_date": null,
+    "verification_date": "2025-11-27"
+  },
+  "verdict": {
+    "status": "PARTIALLY_TRUE",
+    "confidence": 0.9325,
+    "summary": "The claim is partially true based on the evidence."
+  },
+  "sub_claims": [
+    {
+      "id": "C1",
+      "text": "Vaccines cause autism.",
+      "claim_type": "FACTUAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-11-20T00:00:00.000Z",
+      "event": "Publication of The CDC revives debunked 'link' between childhood vaccines ... - NPR",
+      "data": {},
+      "sources": [
+        "The CDC revives debunked 'link' between childhood vaccines ... - NPR"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2025-11-20T00:50:07.000Z",
+      "event": "Publication of Autism and Vaccines - CDC",
+      "data": {},
+      "sources": [
+        "Autism and Vaccines - CDC"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    }
+  ],
+  "evidence_summary": {},
+  "key_evidence": [
+    {
+      "source": "Vaccines and Autism | Children's Hospital of Philadelphia",
+      "source_tier": 1,
+      "url": "https://www.chop.edu/vaccine-education-center/vaccine-safety/vaccines-and-other-conditions/autism",
+      "published": null,
+      "excerpt": "The authors evaluated the relationship between receipt of MMR vaccine and the development of autism in more than 650,000 Danish children born between 1999 and 2010. During the study period, about 6,500 children were diagnosed with autism. The authors found no increased risk of autism in those who received one or two doses of MMR vaccine compared with those who didn\u2019t. The authors also found that MMR vaccine did not increase the risk of autism in children with specific risk factors such as [...] ",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.99837697
+    },
+    {
+      "source": "Autism and Vaccines - CDC",
+      "source_tier": 1,
+      "url": "https://www.cdc.gov/vaccine-safety/about/autism.html",
+      "published": null,
+      "excerpt": "The rise in autism prevalence since the 1980s correlates with the rise in the number of vaccines given to infants. Though the cause of autism is likely to be multi-factorial, the scientific foundation to rule out one potential contributor entirely has not been established. For example, one study found that aluminum adjuvants in vaccines had the highest statistical correlation with the rise in autism prevalence among numerous suspected environmental causes. Correlation does not prove causation, [",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.99773055
+    },
+    {
+      "source": "The CDC revives debunked 'link' between childhood vaccines ... - NPR",
+      "source_tier": 3,
+      "url": "https://www.npr.org/sections/shots-health-news/2025/11/20/nx-s1-5615040/cdc-rfk-childhood-vaccines-autism",
+      "published": "2025-11-20T00:00:00.000Z",
+      "excerpt": "Accessibility links\n\n- [Skip to main content](https://www.npr.org/www.npr.org#mainContent)\n- [Keyboard shortcuts for audio player](https://help.npr.org/contact/s/article?name=what-are-the-keyboard-shortcuts-for-using-the-npr-org-audio-player)\n\n**The CDC revives debunked \u2018link\u2019 between childhood vaccines and autism : Shots - Health News** **A Centers for Disease Control and Prevention webpage that previously stated \"Vaccines do not cause autism\" has been changed to cast doubt on the scientific re",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "Autism and Vaccines - CDC",
+      "source_tier": 1,
+      "url": "https://www.cdc.gov/vaccine-safety/about/autism.html",
+      "published": "2025-11-20T00:50:07.000Z",
+      "excerpt": "[Skip directly to site content](https://www.cdc.gov/www.cdc.gov#content) [Skip directly to search](https://www.cdc.gov/www.cdc.gov#cdc-search)\n\nAn official website of the United States government\n\n[Here's how you know](https://www.cdc.gov/www.cdc.gov#gov-notice)\n\n**Official websites use .gov**\n\nA **.gov** website belongs to an official government organization in the United States.\n\n**Secure .gov websites use HTTPS**\n\nA **lock** ( ) or **https://** means you've safely connected to the .gov websit",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    }
+  ],
+  "contradictions": [],
+  "investigation_metadata": {
+    "time_elapsed": 9.822893142700195
+  },
+  "caveats": [],
+  "recommended_actions": []
+}

@@ -1,0 +1,132 @@
+{
+  "claim": {
+    "original_text": "The 2020 US election had the highest voter turnout in history.",
+    "claimed_by": null,
+    "claim_date": null,
+    "verification_date": "2025-11-27"
+  },
+  "verdict": {
+    "status": "PARTIALLY_TRUE",
+    "confidence": 0.9550000000000001,
+    "summary": "The claim is partially true based on the evidence."
+  },
+  "sub_claims": [
+    {
+      "id": "C1",
+      "text": "The United States held an election in 2020.",
+      "claim_type": "TEMPORAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C2",
+      "text": "The 2020 US election had the highest voter turnout in US history.",
+      "claim_type": "COMPARATIVE",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-01-29T00:00:00.000Z",
+      "event": "Publication of Official 2020 Presidential General Election Results",
+      "data": {},
+      "sources": [
+        "Official 2020 Presidential General Election Results"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2021-04-29T00:00:00.000Z",
+      "event": "Publication of Record High Turnout in 2020 General Election - U.S. Census Bureau",
+      "data": {},
+      "sources": [
+        "Record High Turnout in 2020 General Election - U.S. Census Bureau"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2021-04-29T00:00:00.000Z",
+      "event": "Publication of 2020 Presidential Election Voting & Registration Tables Now Available",
+      "data": {},
+      "sources": [
+        "2020 Presidential Election Voting & Registration Tables Now Available"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    }
+  ],
+  "evidence_summary": {},
+  "key_evidence": [
+    {
+      "source": "2020 United States presidential election - Wikipedia",
+      "source_tier": 4,
+      "url": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election",
+      "published": null,
+      "excerpt": "Presidential elections were held in the United States on November 3, 2020. The Democratic \"Democratic Party (United States)\") ticket of former vice president Joe Biden and California junior senator Kamala Harris defeated the incumbent Republican \"Republican Party (United States)\") president Donald Trump and vice president Mike Pence. The election saw the highest voter turnout by percentage since 1900. Biden received more than 81 million votes, the most votes ever cast for a presidential [...] | ",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.72019166
+    },
+    {
+      "source": "2020 United States elections - Wikipedia",
+      "source_tier": 4,
+      "url": "https://en.wikipedia.org/wiki/2020_United_States_elections",
+      "published": null,
+      "excerpt": "The U.S. territories of American Samoa and Puerto Rico held gubernatorial and legislative elections in 2020, while Guam, the Northern Mariana Islands, and the U.S. Virgin Islands held legislative elections. Along with Washington, D.C., each territory also held elections for a non-voting delegate to the U.S. House of Representatives. All non-voting delegates serve two-year terms, with the exception of the Resident Commissioner of Puerto Rico, a non-voting position with a four-year term. [...] The",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.7116118
+    },
+    {
+      "source": "[PDF] Federal Elections 2020 - FEC",
+      "source_tier": 1,
+      "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf",
+      "published": null,
+      "excerpt": "Federal\nElections2020\nElection Results for the\nU.S. President, the\nU.S. Senate and the\nU.S. House of\nRepresentatives\nFEDERAL ELECTIONS 2020\nElection Results for the U.S. President,\nthe U.S. Senate and the\nU.S. House of Representatives\nFederal Election Commission\nWashington, D.C.\nOctober 2022\nCommissioners\nAllen Dickerson, Chair\nDara Lindenbaum,Vice Chair\nShana M. Broussard\nSean J. Cooksey\nJames E. \u201cTrey\u201d Trainor III\nEllen L. Weintraub\nStatutory Officers\nAlec Palmer, Staff Director\nLisa J. Steven",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "Official 2020 Presidential General Election Results",
+      "source_tier": 1,
+      "url": "https://www.fec.gov/resources/cms-content/documents/2020presgeresults.pdf",
+      "published": "2021-01-29T00:00:00.000Z",
+      "excerpt": "OFFICIAL 2020 PRESIDENTIAL GENERAL ELECTION RESULTS\nGeneral Election Date: 11/03/2020\nSource: State Elections Offices*\n- Page 1 of 12 -\nSTATE ELECTORAL \nVOTES\nELECTORAL VOTES CAST FOR\nJOSEPH R. BIDEN (D)\nELECTORAL VOTES CAST FOR\nDONALD J. TRUMP (R)\nAL 9 9\nAK 3 3\nAZ 11 11\nAR 6 6\nCA 55 55\nCO 9 9\nCT 7 7\nDE 3 3\nDC 3 3\nFL 29 29\nGA 16 16\nHI 4 4\nID 4 4\nIL 20 20\nIN 11 11\nIA 6 6\nKS 6 6\nKY 8 8\nLA 8 8\nME 4 3 1\nMD 10 10\nMA 11 11\nMI 16 16\nMN 10 10\nMS 6 6\nMO 10 10\nMT 3 3\nNE 5 1 4\nNV 6 6\nNH 4 4\nNJ 14 14\nNM 5 5",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "2020 Presidential Election Voting & Registration Tables Now Available",
+      "source_tier": 1,
+      "url": "https://www.census.gov/newsroom/press-releases/2021/2020-presidential-election-voting-and-registration-tables-now-available.html",
+      "published": null,
+      "excerpt": "APRIL 29, 2021 \u2014 The 2020 presidential election had the highest voter turnout of the 21st century, with 66.8% of citizens 18 years and older voting in the election, according to new voting and registration tables released today by the U.S. Census Bureau. These data come from the 2020 Current Population Survey Voting and Registration Supplement for the November 2020 presidential election, which surveyed the civilian noninstitutionalized population in the United States. [...] The table package sho",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8655088
+    }
+  ],
+  "contradictions": [],
+  "investigation_metadata": {
+    "time_elapsed": 11.017596960067749
+  },
+  "caveats": [],
+  "recommended_actions": []
+}

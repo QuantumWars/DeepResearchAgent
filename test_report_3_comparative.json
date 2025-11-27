@@ -1,0 +1,132 @@
+{
+  "claim": {
+    "original_text": "Electric cars produce zero emissions.",
+    "claimed_by": null,
+    "claim_date": null,
+    "verification_date": "2025-11-27"
+  },
+  "verdict": {
+    "status": "PARTIALLY_TRUE",
+    "confidence": 0.9325,
+    "summary": "The claim is partially true based on the evidence."
+  },
+  "sub_claims": [
+    {
+      "id": "C1",
+      "text": "Electric cars produce zero tailpipe emissions.",
+      "claim_type": "FACTUAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C2",
+      "text": "Electric cars are vehicles powered by electricity.",
+      "claim_type": "FACTUAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2000-01-01T00:00:00.000Z",
+      "event": "Publication of How Do All-Electric Cars Work? - Alternative Fuels Data Center",
+      "data": {},
+      "sources": [
+        "How Do All-Electric Cars Work? - Alternative Fuels Data Center"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2025-01-31T00:00:00.000Z",
+      "event": "Publication of Vehicle Types | US Department of Transportation",
+      "data": {},
+      "sources": [
+        "Vehicle Types | US Department of Transportation"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    },
+    {
+      "date": "2025-06-12T00:00:00.000Z",
+      "event": "Publication of Electric & Plug-In Hybrid Electric Vehicles | US EPA",
+      "data": {},
+      "sources": [
+        "Electric & Plug-In Hybrid Electric Vehicles | US EPA"
+      ],
+      "confidence": 0.8,
+      "flag": null
+    }
+  ],
+  "evidence_summary": {},
+  "key_evidence": [
+    {
+      "source": "Carbon Footprint Face-Off: A Full Picture of EVs vs. Gas Cars",
+      "source_tier": 4,
+      "url": "https://www.recurrentauto.com/research/just-how-dirty-is-your-ev",
+      "published": null,
+      "excerpt": "Operational emissions are the thing most people think of when they think about auto emissions - the stuff coming out of your tailpipe. It\u2019s a big phrase for a simple concept. It\u2019s also where EVs rapidly catch up with gas cars in the race to clean transport.\n\nWhen it comes to carbon accounting, the very best thing about electric cars is that they produce zero tailpipe emissions when they are used. No smog, no NOx, nothing to make the air around them difficult or dangerous to breathe. [...] Gasoli",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8156003
+    },
+    {
+      "source": "Emissions from Electric Vehicles - Alternative Fuels Data Center",
+      "source_tier": 1,
+      "url": "https://afdc.energy.gov/vehicles/electric-emissions",
+      "published": null,
+      "excerpt": "All-electric vehicles, plug-in hybrid electric vehicles (PHEVs), and hybrid electric vehicles (HEVs) typically produce lower tailpipe emissions than conventional vehicles do, and zero tailpipe emissions when running only on electricity. Tailpipe emissions are only one factor in considering a vehicle's life cycle emissions; gasoline and electricity fuel pathways also have upstream emissions to consider, which include extracting, refining, producing, and transporting the fuel. Estimating [...] Con",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8116913
+    },
+    {
+      "source": "Electric Vehicle Myths | US EPA",
+      "source_tier": 1,
+      "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+      "published": null,
+      "excerpt": "[Skip to main content](https://www.epa.gov/www.epa.gov#main)\n\n**Official websites use .gov**\nA **.gov** website belongs to an official government organization in the United States.\n\n**Secure .gov websites use HTTPS**\nA **lock** (A locked padlock) or **https://** means you\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n\n# Electric Vehicle Myths\n\n[Sign up for](https://www.epa.gov/greenvehicles/forms/green-vehicle-guide-e-updates) [E-Updates]",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "Electric & Plug-In Hybrid Electric Vehicles | US EPA",
+      "source_tier": 1,
+      "url": "https://www.epa.gov/greenvehicles/electric-plug-hybrid-electric-vehicles",
+      "published": "2025-06-12T00:00:00.000Z",
+      "excerpt": "[Skip to main content](https://epa.gov/greenvehicles/electric-plug-hybrid-electric-vehicles#main)\n\n**Official websites use .gov**\nA **.gov** website belongs to an official government organization in the United States.\n\n**Secure .gov websites use HTTPS**\nA **lock** (A locked padlock) or **https://** means you\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n\n# Electric & Plug-In Hybrid Electric Vehicles\n\n[Sign up for\\\nE-Updates](https://epa.g",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.8
+    },
+    {
+      "source": "Electric vehicle - Wikipedia",
+      "source_tier": 4,
+      "url": "https://en.wikipedia.org/wiki/Electric_vehicle",
+      "published": null,
+      "excerpt": "An electric vehicle (EV) is any motorized vehicle whose propulsion is provided fully or mostly by electric power, via grid electricity or from onboard rechargeable batteries. EVs encompass a wide range of transportation modes, including road (electric cars, buses, trucks and personal transporters) and rail vehicles (electric trains, trams and monorails), electric boats and submersibles, electric aircraft (both fixed-wing and multirotors) and electric spacecraft. [...] A pure-electric vehicle or ",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "UNCERTAIN",
+      "confidence": 0.6356076
+    }
+  ],
+  "contradictions": [],
+  "investigation_metadata": {
+    "time_elapsed": 11.555143117904663
+  },
+  "caveats": [],
+  "recommended_actions": []
+}

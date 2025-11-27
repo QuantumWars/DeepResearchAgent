@@ -1,0 +1,8 @@
+agno
+openai
+pydantic
+python-dotenv
+
+# Optional: Uncomment when ready to use real APIs
+# exa-py
+# tavily-python

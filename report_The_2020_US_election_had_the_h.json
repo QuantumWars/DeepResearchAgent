@@ -1,0 +1,117 @@
+{
+  "claim": {
+    "original_text": "The 2020 US election had the highest voter turnout in history.",
+    "claimed_by": null,
+    "claim_date": null,
+    "verification_date": "2025-11-27"
+  },
+  "verdict": {
+    "status": "PARTIALLY_TRUE",
+    "confidence": 0.5820000000000001,
+    "summary": "The claim is partially true based on the evidence."
+  },
+  "sub_claims": [
+    {
+      "id": "C1",
+      "text": "Biden announced an infrastructure plan",
+      "claim_type": "FACTUAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C2",
+      "text": "The plan was worth $2 trillion",
+      "claim_type": "STATISTICAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C3",
+      "text": "The announcement occurred in March 2021",
+      "claim_type": "TEMPORAL",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    },
+    {
+      "id": "C4",
+      "text": "It is the largest in US history",
+      "claim_type": "COMPARATIVE",
+      "verdict": null,
+      "confidence": 0.0,
+      "evidence_count": 0
+    }
+  ],
+  "timeline": [],
+  "evidence_summary": {},
+  "key_evidence": [
+    {
+      "source": "Mock Source",
+      "source_tier": 2,
+      "url": null,
+      "published": null,
+      "excerpt": "Evidence for verify Biden announced an infrastructure plan",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "TRUE",
+      "confidence": 0.9
+    },
+    {
+      "source": "Mock Source",
+      "source_tier": 2,
+      "url": null,
+      "published": null,
+      "excerpt": "Evidence for Biden announced an infrastructure plan official source",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "TRUE",
+      "confidence": 0.9
+    },
+    {
+      "source": "Mock Source",
+      "source_tier": 2,
+      "url": null,
+      "published": null,
+      "excerpt": "Evidence for verify The plan was worth $2 trillion",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "TRUE",
+      "confidence": 0.9
+    },
+    {
+      "source": "Mock Source",
+      "source_tier": 2,
+      "url": null,
+      "published": null,
+      "excerpt": "Evidence for The plan was worth $2 trillion official source",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "TRUE",
+      "confidence": 0.9
+    },
+    {
+      "source": "Mock Source",
+      "source_tier": 2,
+      "url": null,
+      "published": null,
+      "excerpt": "Evidence for verify The announcement occurred in March 2021",
+      "relevance": "High",
+      "supports": [],
+      "contradicts": [],
+      "verdict": "TRUE",
+      "confidence": 0.9
+    }
+  ],
+  "contradictions": [],
+  "investigation_metadata": {
+    "time_elapsed": 0.0002033710479736328
+  },
+  "caveats": [],
+  "recommended_actions": []
+}
